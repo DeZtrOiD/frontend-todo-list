@@ -1,0 +1,13 @@
+# frontend-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-todo
+  namespace: practice
+spec:
+  selector:
+    app: frontend-todo
+  ports:
+    - name: http
+      port: 80
+      targetPort: 80
