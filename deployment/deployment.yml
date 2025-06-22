@@ -22,4 +22,4 @@ spec:
             - containerPort: 80
           env:
             - name: BACKEND_HOST
-              value: "backend-todo.practice.svc.cluster.local" # Внутренний DNS бекенда
+              value: "backend-todo.practice.svc.cluster.local"
